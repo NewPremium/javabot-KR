@@ -17,8 +17,8 @@ https://github.com/INMD1/javabot-KR-Beta/releases <br>
 원본 제작자의 프로젝트도 한번이용해 주세요 !<br>
 
 # javabot-KR
-위에 있는 봇을 한글화해서 기능 수정및 기능을 추가한 봇입니다.
-이봇은 원본 라이센스를 적용받습니다<br>
+위에 있는 봇을 한글화해서 기능 수정 및 기능을 추가한 봇입니다.
+이 봇은 원본 라이센스를 적용받습니다<br>
 [![Release](https://img.shields.io/github/release/INMD1/javabot-KR-)](https://github.com/INMD1/javabot-KR-/releases)
 [![License](https://img.shields.io/github/license/INMD1/javabot-KR-)](https://github.com/INMD1/javabot-KR-/blob/master/LICENSE)
 
@@ -38,17 +38,17 @@ https://github.com/INMD1/javabot-KR-Beta/releases <br>
    * 재생 목록 지원 (웹 / YouTube 및 로컬)<br><br>
    
    *** 기존 봇과의 차이점***<br>
-   한글화를 패치 했습니다.<br>
+   한글화 패치를 했습니다.<br>
 
 
 ## 설치방법
-설치 패이지 가서 안내를 받고 하세요1
+설치 페이지 가서 안내를 받고 하세요1
 
 ## 질문 / 제안 / 버그 보고서
-저는 주료 이슈나 이메일로 받습니다. 
+저는 주로 이슈를 이메일로 받습니다. 
 ## 수정
-이 봇 (그리고 여기의 소스 코드)은 경험이없는 프로그래머에게는 편집하기 쉽지 않을 수 있습니다. <br>
-소스를 공개하는 주요 목적은 라이브러리의 기능을 보여주고, 다른 사람들이 봇의 작동 방식을 이해하고, Java, JDA 및 Discord 봇 개발에 대한 지식이있는 사람들이 기여할 수 있도록하는 것입니다. <br>
+이 봇 (그리고 여기의 소스 코드)은 경험이 없는 프로그래머에게는 편집하기 쉽지 않을 수 있습니다. <br>
+소스를 공개하는 주요 목적은 라이브러리의 기능을 보여주고, 다른 사람들이 봇의 작동 방식을 이해하고, Java, JDA 및 Discord 봇 개발에 대한 지식이 있는 사람들이 기여할 수 있도록 하는 것입니다. <br>
 이를 편집하고 컴파일하는 데 필요한 많은 요구 사항과 종속성이 있으며, 스스로 변경하려는 사용자에게는 지원이 제공되지 않습니다. <br>
 대신 기능 요청을 고려하십시오 (위 섹션 참조). 편집을 선택하면 Apache 2.0 라이센스에 따라 편집하십시오.
 
