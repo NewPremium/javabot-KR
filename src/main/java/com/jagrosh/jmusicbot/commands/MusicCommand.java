@@ -53,13 +53,13 @@ public abstract class MusicCommand extends Command
             {
                 event.getMessage().delete().queue();
             } catch(PermissionException ignore){}
-            event.replyInDm(event.getClient().getError()+"해당 명령 만 사용할 수 있습니다. "+tchannel.getAsMention()+"!");
+            event.replyInDm(event.getClient().getError()+"해당 명령어만 사용할 수 있습니다. "+tchannel.getAsMention()+"!");
             return;
         }
         bot.getPlayerManager().setUpHandler(event.getGuild()); // no point constantly checking for this later
         if(bePlaying && !((AudioHandler)event.getGuild().getAudioManager().getSendingHandler()).isMusicPlaying(event.getJDA()))
         {
-            event.reply(event.getClient().getError()+"음악봇을을 사용하려면 음악이 재생되어야합니다!");
+            event.reply(event.getClient().getError()+"음악봇을 사용하려면 음악이 재생되어야 합니다!");
             return;
         }
         if(beListening)
@@ -70,14 +70,14 @@ public abstract class MusicCommand extends Command
             GuildVoiceState userState = event.getMember().getVoiceState();
             if(!userState.inVoiceChannel() || userState.isDeafened() || (current!=null && !userState.getChannel().equals(current)))
             {
-                event.replyError("당신은 듣고 있어야합니다. "+(current==null ? "음성 채널" : "**"+current.getName()+"**")+" 에 들어가 있으세요.");
+                event.replyError("당신은 음악을 듣고 있어야 합니다. "+(current==null ? "음성 채널" : "**"+current.getName()+"**")+" 에 들어가 있으세요.");
                 return;
             }
 
             VoiceChannel afkChannel = userState.getGuild().getAfkChannel();
             if(afkChannel != null && afkChannel.equals(userState.getChannel()))
             {
-                event.replyError("AFK 채널에서는이 명령을 사용할 수 없습니다!");
+                event.replyError("AFK 채널에서는 이 명령을 사용할 수 없습니다!");
                 return;
             }
 
